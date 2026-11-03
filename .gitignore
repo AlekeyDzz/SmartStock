@@ -1,0 +1,21 @@
+# Archivos de compilación de Gradle y almacenamiento local
+.gradle/
+/build
+/*/build
+/local.properties
+
+# Archivos de configuración del IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+.DS_Store
+
+# Archivos de captura y logs
+/captures
+.externalNativeBuild
+.cxx/
+*.log
+
+# Archivos de APKs generados localmente
+*.apk
+*.ap_
+*.dex
