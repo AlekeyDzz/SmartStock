@@ -68,9 +68,7 @@ class principal : AppCompatActivity() {
         val prefs = getSharedPreferences("SmartStockPrefs", Context.MODE_PRIVATE)
         umbralStock = prefs.getInt("UmbralStock", 5)
 
-        // BORRAR/COMENTAR ESTA LÍNEA CUANDO YA NO QUIERAS QUE SALGA EL TUTORIAL:
-        prefs.edit().clear().apply()
-
+        // Se eliminó la línea que borraba la memoria. Ahora el tutorial solo saldrá la primera vez.
         verificarTutorial()
         cargarProductosYCategorias()
 
